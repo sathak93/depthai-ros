@@ -18,7 +18,7 @@ def launch_setup(context, *args, **kwargs):
     urdf_launch_dir = os.path.join(get_package_share_directory('depthai_descriptions'), 'launch')
     
     params_file = LaunchConfiguration("params_file")
-    camera_model = LaunchConfiguration('camera_model',  default = 'OAK-D')
+    camera_model = LaunchConfiguration('camera_model',  default = 'OAK-D-Lite')
 
     name = LaunchConfiguration('name').perform(context)
 

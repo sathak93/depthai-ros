@@ -16,7 +16,7 @@ def generate_launch_description():
     urdf_launch_dir = os.path.join(get_package_share_directory('depthai_descriptions'), 'launch')
 
     tf_prefix    = LaunchConfiguration('tf_prefix',    default = 'oak')
-    camera_model = LaunchConfiguration('camera_model', default = 'OAK-D')
+    camera_model = LaunchConfiguration('camera_model', default = 'OAK-D-Lite')
     base_frame   = LaunchConfiguration('base_frame',   default = 'oak-d_frame')
     parent_frame = LaunchConfiguration('parent_frame', default = 'oak-d-base-frame')
     publish_urdf = LaunchConfiguration('publish_urdf', default = True)

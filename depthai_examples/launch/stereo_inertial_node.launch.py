@@ -26,7 +26,7 @@ def generate_launch_description():
     usb2Mode     = LaunchConfiguration('usb2Mode',  default = False)
     poeMode      = LaunchConfiguration('poeMode',   default = False)
 
-    camera_model = LaunchConfiguration('camera_model',  default = 'OAK-D')
+    camera_model = LaunchConfiguration('camera_model',  default = 'OAK-D-Lite')
     tf_prefix    = LaunchConfiguration('tf_prefix',     default = 'oak')
     mode         = LaunchConfiguration('mode', default = 'depth')
     base_frame   = LaunchConfiguration('base_frame',    default = 'oak-d_frame')
