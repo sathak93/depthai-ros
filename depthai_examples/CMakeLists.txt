@@ -22,6 +22,14 @@ endif()
 set(tiny_yolo_v4_blob_name "yolov4_tiny_coco_416x416_openvino_2021.4_6shave_bgr.blob")
 set(mobilenet_blob_name "mobilenet-ssd_openvino_2021.2_6shave.blob")
 set(deeplab_blob_name "deeplab_v3_plus_mnv2_decoder_256_openvino_2021.4.blob")
+set(hanger_blob_name "yolov4_tiny_hanger_6shave.blob")
+
+set(hanger_blob "${PROJECT_SOURCE_DIR}/resources/${hanger_blob_name}")
+file(DOWNLOAD "https://github.com/sathak93/robox/blob/main/src/robox/resources/yolov4_tiny_hanger_6shave.blob?raw=true"
+${hanger_blob}
+TIMEOUT 60  # seconds
+EXPECTED_HASH SHA1=da39a3ee5e6b4b0d3255bfef95601890afd80709
+TLS_VERIFY ON)
 
 set(mobilenet_blob "${PROJECT_SOURCE_DIR}/resources/${mobilenet_blob_name}")
 file(DOWNLOAD "https://artifacts.luxonis.com/artifactory/luxonis-depthai-data-local/network/mobilenet-ssd_openvino_2021.2_6shave.blob"
