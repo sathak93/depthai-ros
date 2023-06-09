@@ -33,15 +33,15 @@
       i_calibration_file: ''
       i_get_base_device_timestamp: true
       i_fps: 30.0
-      i_height: 720
+      i_height: 480
       i_low_bandwidth: false
       i_low_bandwidth_quality: 50
       i_max_q_size: 30
       i_publish_topic: false
       i_simulate_from_topic: false
       i_disable_node: false
-      i_resolution: '720'
-      i_width: 1280
+      i_resolution: '400'
+      i_width: 640
       r_exposure: 1000
       r_iso: 800
       r_set_man_exposure: false
@@ -84,7 +84,7 @@
       i_calibration_file: ''
       i_get_base_device_timestamp: true
       i_fps: 30.0
-      i_height: 720
+      i_height: 480
       i_low_bandwidth: false
       i_low_bandwidth_quality: 50
       i_max_q_size: 30
@@ -92,7 +92,7 @@
       i_simulate_from_topic: false
       i_disable_node: false
       i_resolution: '720'
-      i_width: 1280
+      i_width: 640
       r_exposure: 1000
       r_iso: 800
       r_set_man_exposure: false
@@ -113,7 +113,7 @@
       i_enable_temporal_filter: false
       i_enable_threshold_filter: false
       i_extended_disp: false
-      i_height: 720
+      i_height: 480
       i_low_bandwidth: false
       i_low_bandwidth_quality: 50
       i_lr_check: true
@@ -122,7 +122,7 @@
       i_rectify_edge_fill_color: 0
       i_stereo_conf_threshold: 255
       i_set_input_size: false
-      i_input_width: 1280
-      i_input_height: 720
-      i_width: 1280
+      i_input_width: 640
+      i_input_height: 480
+      i_width: 640
     use_sim_time: false
