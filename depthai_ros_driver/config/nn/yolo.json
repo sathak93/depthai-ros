@@ -1,13 +1,13 @@
 {
     "model": {
-        "model_name": "yolov4_tiny_hanger_6shave",
+        "model_name": "hanger_v2_yolov8s_openvino_2022.1_6shave",
         "zoo": "depthai_examples"
     },
     "nn_config": {
         "output_format": "detection",
         "NN_family": "YOLO",
         "NN_specific_metadata": {
-            "classes": 1,
+            "classes": 2,
             "coordinates": 4,
             "anchors": [
                 10,
@@ -41,7 +41,8 @@
     },
     "mappings": {
         "labels": [
-            "hanger"
+            "hanger",
+            "hanger_center"
         ]
     },
     "version": 1
